@@ -10,6 +10,10 @@ Router.map(function() {
   this.route('meetings');
   this.route('speakers');
   this.route('books');
+
+  this.route('books', {path: '/books'},  function() {
+    this.route('detail', {path: '/:id'});
+  });
 });
 
 export default Router;

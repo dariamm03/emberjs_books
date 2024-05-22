@@ -1,0 +1,52 @@
+{
+    "books": [
+      {
+        "id": 1,
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "pages": 500,
+        "tags": "#history",
+        "photo": "/images/book-cover.jpg"
+      },
+      {
+        "id": 2,
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "pages": 400,
+        "tags": "#history",
+        "photo": "/images/book-cover.jpg"
+      },
+      {
+        "id": 3,
+        "title": "1984",
+        "author": "George Orwell",
+        "pages": 752,
+        "tags": "#history",
+        "photo": "/images/book-cover.jpg"
+      }
+    ],
+    "speakers": [
+      {
+        "id": 1,
+        "lastName": "Oblomov",
+        "firstNname": "Victor",
+        "middleName": "Sergeevich",
+        "photo": "/images/speaker.jpg"
+      },
+      {
+        "id": 2,
+        "lastName": "Kolobkov",
+        "firstNname": "Edgar",
+        "middleName": "Ivanovich",
+        "photo": "/images/speaker.jpg"
+      },
+      {
+        "id": 3,
+        "lastName": "Sereda",
+        "firstNname": "Maksim",
+        "middleName": "Anatolievich",
+        "photo": "/images/speaker.jpg"
+      }
+    ]
+  }
+  
