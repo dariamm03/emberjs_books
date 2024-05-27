@@ -5,24 +5,21 @@
         "title": "The Great Gatsby",
         "author": "F. Scott Fitzgerald",
         "pages": 500,
-        "tags": "#history",
-        "photo": "/images/book-cover.jpg"
+        "tags": "#history"
       },
       {
         "id": 2,
         "title": "To Kill a Mockingbird",
         "author": "Harper Lee",
         "pages": 400,
-        "tags": "#history",
-        "photo": "/images/book-cover.jpg"
+        "tags": "#history"
       },
       {
         "id": 3,
         "title": "1984",
         "author": "George Orwell",
         "pages": 752,
-        "tags": "#history",
-        "photo": "/images/book-cover.jpg"
+        "tags": "#history"
       }
     ],
     "speakers": [

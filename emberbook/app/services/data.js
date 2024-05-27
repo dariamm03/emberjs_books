@@ -2,8 +2,13 @@ import Service from '@ember/service';
 import ENV from '../config/environment';
 
 export default Service.extend({
-    getBooks() {
-        return fetch(`${ENV.backendURL}/books`).then((response) => response.json());
+    getBooks(search) {
+        let queryParams = '';
+        if (search){
+            queryParams=`?q=${search}`;
+        }
+
+        return fetch(`${ENV.backendURL}/books${queryParams}`).then((response) => response.json());
     },
 
     getBook(id){
@@ -13,4 +18,14 @@ export default Service.extend({
     deleteBook(book) {
         return fetch(`${ENV.backendURL}/books/${book.id}`, {method: 'DELETE'});
     },
+
+    createBook(book) {
+        return fetch(`${ENV.backendURL}/create`, {
+            method: 'POST',
+            headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(book)
+    });
+    }
 });
