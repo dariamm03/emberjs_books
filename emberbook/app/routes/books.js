@@ -26,7 +26,7 @@ export default Route.extend({
     },
 
     actions: {
-        refreshBook() {
+        refreshBooks() {
             this.refresh();
         },
 

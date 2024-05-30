@@ -5,16 +5,16 @@
 
 <form onsubmit={{action "saveBook"}}>
     <label for="title">Заголовок:</label><br>
-    <input type="text" placeholder="title" value="{{title}}"><br><br>
+    {{input type="text" placeholder="title" value=title}}<br><br>
     
     <label for="author">Автор:</label><br>
-    <input type="text" placeholder="author" value="{{author}}"><br><br>
+    {{input type="text" placeholder="author" value=author}}<br><br>
     
     <label for="pages">Количество страниц:</label><br>
-    <input type="number" placeholder="pages" value="{{pages}}"><br><br>
+    {{input type="number" placeholder="pages" value=pages}}<br><br>
     
     <label for="hashtag">Хештег:</label><br>
-    <input type="text" placeholder="hashtag" value="{{tags}}"><br><br>
+    {{input type="text" placeholder="hashtag" value=tags}}<br><br>
     
     <button type="submit" class="btn-submit">save</button>
 </form>

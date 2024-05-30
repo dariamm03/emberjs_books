@@ -20,7 +20,7 @@ export default Service.extend({
     },
 
     createBook(book) {
-        return fetch(`${ENV.backendURL}/create`, {
+        return fetch(`${ENV.backendURL}/books`, {
             method: 'POST',
             headers: {
             'Content-Type': 'application/json'

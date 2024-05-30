@@ -11,7 +11,7 @@ export default Controller.extend({
         title: this.get('title'),
         author: this.get('author'),
         pages: this.get('pages'),
-        tags: this.get('tags')
+        tags: this.get('tags'),
         });
 
         this.transitionToRoute('books');
